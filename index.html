@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Display PDF in Read-Only Mode (Limited)</title>
+</head>
+<body>
+  <h1>My PDF</h1>
+  <object data="Hon. Baba buriel program.pdf" type="application/pdf-basic" width="100%" height="600px">
+    <p>Unable to display PDF file. Please download the file instead.  <a href="Hon. Baba buriel program.pdf">Download</a></p>
+  </object>
+  <br>
+  <a href="Hon. Baba buriel program.pdf" download="my_file.pdf">Download PDF (Right-click and choose "Save As")</a>
+
+  <script>
+    document.addEventListener('contextmenu', event => event.preventDefault());
+  </script>
+</body>
+</html>
